@@ -18,8 +18,11 @@ public class Feature_Button {
         mainComponentsPage.Message(string);
         System.out.println("Message is: " + string);
         Assert.assertEquals("All the Right Features", string);
+    }
 
-
+    @Then("user naviget to main page")
+    public void user_naviget_to_main_page() {
+        mainComponentsPage.navigate_Main_Page();
     }
 
 }

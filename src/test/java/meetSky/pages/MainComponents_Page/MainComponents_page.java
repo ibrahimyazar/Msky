@@ -31,8 +31,6 @@ public class MainComponents_page extends BasePage {
 
 
 
-
-
     public void featuresButton(){
         FeaturesButton.click();
         Driver.get().manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
@@ -68,6 +66,10 @@ public class MainComponents_page extends BasePage {
 
     public void click_Login_Button(){
         LoginButton.click();
+    }
+
+    public void navigate_Main_Page(){
+        Driver.get().navigate().back();
     }
 
 }

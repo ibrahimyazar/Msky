@@ -30,4 +30,21 @@
        Then user should click Login button
        And The title should "Login- MeetSky"
 
+       @Buttons
+       Scenario: click the main buttons
+         Then user should click Features button
+         And User Should see "All the Right Features" message
+         And user naviget to main page
+         Then user should click Pricing button
+         And The title should "Pricing - MeetSky"
+         And user naviget to main page
+         Then user should click Contact button
+         And The title should "Contact - MeetSky"
+         And user naviget to main page
+         Then user should click TRIAL button
+         And The title should "TRIAL - MeetSky"
+         And user naviget to main page
+         Then user should click Login button
+         And The title should "Login- MeetSky"
+         And user naviget to main page
 
