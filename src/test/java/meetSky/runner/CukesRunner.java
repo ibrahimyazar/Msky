@@ -11,7 +11,7 @@ import org.junit.runner.RunWith;
         },
         glue = "meetSky/stepDefinitions",
         dryRun = false,
-       tags = " @Features_button",
+       tags = " @login_Button",
         plugin = {"html:target/default-cucumber-reports",
                 "json:target/cucumber.json", // create the report
                  "rerun:target/rerun.txt"

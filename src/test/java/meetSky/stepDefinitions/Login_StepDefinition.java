@@ -14,7 +14,7 @@ public class Login_StepDefinition {
 
     @Given("User in homepage")
     public void user_in_homepage() {
-        Driver.get().get(ConfigurationReader.getProperty("url"));
+        Driver.get().get(ConfigurationReader.getProperty("urlMeetsky"));
 
     }
 
